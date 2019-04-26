@@ -91,6 +91,8 @@ ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي اي�
 ${prefix}inv/لدعوة البوت الى سيرفرك
 ${prefix}support/سيرفر الدعم
 ${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
+https://discordapp.com/api/oauth2/authorize?client_id=570559495550271489&permissions=8&scope=bot
+رابط البوت
 **
   `
 ,`
