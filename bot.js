@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const devs = ['389090790984515594'];
 const db = require('quick.db');
-const premium = ['470896018603376640']
+const premium = ['558220897547452418']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -227,7 +227,8 @@ message.channel.send(`**${message.author.username}, your :credit_card: balance i
 
 client.on('message', async message => {
     let amount = 90000000;
-    if(message.content.startsWith(prefix + "daily")) {
+    if(message.content.startsWith(prefix + "
+				  ")) {
     if(message.author.bot) return;
     if(coolDown.has(message.author.id)) return message.channel.send(`**:stopwatch: | ${message.author.username}, your daily :yen: credits refreshes in \`\`1 Day\`\`.**`);
     
@@ -715,7 +716,7 @@ message.channel.send(
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/xA8s2AU**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/rx7uGjH**")
      
      
   message.channel.sendEmbed(embed);
